@@ -3,7 +3,7 @@
 $a = [1,1,1,1,1,1,1,100];
 
 function findIt($array, $sumNeeded) {
-	if (array_search($sumNeeded, $array)) {
+	if (array_search($sumNeeded, $array) !== false) {
 		return true;
 	}
 	
